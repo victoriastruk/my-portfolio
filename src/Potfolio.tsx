@@ -14,52 +14,112 @@ type Project = {
 const projects: Record<string, Project[]> = {
   fullstack: [
     {
-      title: "Fullstack App 1",
-      desc: "MERN + Auth + Deployment",
-      img: "/images/1.png",
-      demo: "#",
-      code: "#",
+      title: "Squadhelp",
+      desc: `Building an online platform for running creative contests and auctions. Customers
+post contests for company names, slogans, or logos with a prize pool. Participants
+submit proposals, and moderators review the quality of the entries.
+
+Tech stack: React, Redux Toolkit, Node.js, Express, PostgreSQL, MongoDB,
+WebSockets, SASS, Docker`,
+      img: "/images/squahelp.png",
+      demo: "",
+      code: "https://github.com/victoriastruk/toolkit-exam-project-2025-01",
     },
     {
-      title: "Fullstack App 2",
-      desc: "Next.js + Prisma + PostgreSQL",
-      img: "/images/2.png",
-      demo: "#",
-      code: "#",
+      title: "Boarding School Website",
+      desc: `Developed and deployed a full-stack web application for an educational institution.
+The main functionality focused on content management for publishing school
+documents and events. The institution actively uses the website.
+
+Tech stack: React, Express, PostgreSQL, Node.js, SCSS, JWT.`,
+      img: "/images/school.png",
+      demo: "https://training-manager-fullstack.vercel.app/",
+      code: "",
+    },
+    {
+      title: "Training Manager Fullstack App",
+      desc: `Backend: Node.js + Express.js + Sequelize (PostgreSQL) + dotenv + Sequelize CLI (migrations & seeders) + Mocha / Chai / Supertest (tests)
+        
+      Frontend: React + React Router + Axios + HTML / CSS / JS`,
+      img: "/images/3.png",
+      demo: "https://training-manager-fullstack.vercel.app/",
+      code: "https://github.com/victoriastruk/training-manager-fullstack",
+    },
+    {
+      title: "A fullstack application for managing phones",
+      desc: "A portfolio project to demonstrate CRUD operations, REST API, Sequelize associations, Express.js routing, and a React client.",
+      img: "/images/1.png",
+      demo: "https://fullstack-phones.vercel.app",
+      code: "https://github.com/victoriastruk/fullstack-phones",
     },
   ],
   frontend: [
     {
-      title: "Landing Page",
-      desc: "Tailwind + Animations",
-      img: "/images/3.png",
-      demo: "#",
-      code: "#",
+      title: "How It Works Page",
+      desc: "Vite + React + SASS + CSS Modules + Flexbox",
+      img: "/images/2.png",
+      demo: "https://atom-chi-ten.vercel.app/",
+      code: "https://github.com/victoriastruk/atom",
     },
     {
-      title: "Dashboard UI",
-      desc: "React + Chart.js",
-      img: "/images/front2.png",
-      demo: "#",
-      code: "#",
+      title: "Teamflow",
+      desc: "HTML + CSS",
+      img: "/images/front5.png",
+      demo: "https://victoriastruk.github.io/teamflow/",
+      code: "https://github.com/victoriastruk/teamflow",
+    },
+    {
+      title: "Shop",
+      desc: "HTML + CSS",
+      img: "/images/front6.png",
+      demo: "https://victoriastruk.github.io/shop-collusion/",
+      code: "https://github.com/victoriastruk/shop-collusion",
+    },
+    {
+      title: "Smart Space",
+      desc: "HTML + CSS + JAVASCRIPT",
+      img: "/images/front7.png",
+      demo: "https://victoriastruk.github.io/smartSpace/",
+      code: "https://github.com/victoriastruk/smartSpace",
+    },
+    {
+      title: "Todo App",
+      desc: "Vite + React + classnames + SASS + Lucide Icons",
+      img: "/images/front4.png",
+      demo: "https://victoriastruk.github.io/react-todo/",
+      code: "https://github.com/victoriastruk/react-todo",
+    },
+    {
+      title: "Work With Forms",
+      desc: "React.js + Formik + yup + react-router-dom@6 + classnames + SASS",
+      img: "/images/front1.png",
+      demo: "https://victoriastruk.github.io/auth-ui-formik/signup",
+      code: "https://github.com/victoriastruk/auth-ui-formik",
+    },
+    {
+      title: "Landing",
+      desc: "HTML + CSS + JAVASCRIPT",
+      img: "/images/front3.png",
+      demo: "https://victoriastruk.github.io/mashup/",
+      code: "https://github.com/victoriastruk/mashup",
     },
   ],
-  backend: [
-    {
-      title: "REST API",
-      desc: "Express + MongoDB",
-      img: "/images/back1.png",
-      demo: "#",
-      code: "#",
-    },
-    {
-      title: "GraphQL API",
-      desc: "Apollo + PostgreSQL",
-      img: "/images/back2.png",
-      demo: "#",
-      code: "#",
-    },
-  ],
+  // backend: [
+  //   {
+  //     title: "REST API",
+  //     desc: "Express + MongoDB",
+  //     img: "/images/back1.png",
+  //     demo: "#",
+  //     code: "#",
+  //   },
+  //   {
+  //     title: "GraphQL API",
+  //     desc: "Apollo + PostgreSQL",
+  //     img: "/images/back2.png",
+  //     demo: "#",
+  //     code: "#",
+  //   },
+  // ],
   components: [
     {
       title: "User Card Component",
@@ -117,19 +177,26 @@ const projects: Record<string, Project[]> = {
       demo: "https://jp67f9-3000.csb.app/",
       code: "https://github.com/victoriastruk/my-repos",
     },
-     {
+    {
       title: "Users Card",
       desc: "A responsive and flexible user card component built with React for displaying user profiles in a clean, adaptable layout.",
       img: "/images/comp9.png",
       demo: "https://victoriastruk.github.io/flex-user-card/",
       code: "https://github.com/victoriastruk/flex-user-card",
     },
-        {
+    {
       title: "Contact Form",
       desc: "A clean, semantic HTML form built with vanilla HTML, CSS, and JavaScript.",
       img: "/images/comp10.png",
       demo: "https://victoriastruk.github.io/html-form/",
       code: "https://github.com/victoriastruk/html-form",
+    },
+    {
+      title: "Todo App",
+      desc: "HTML + CSS + JAVASCRIPT",
+      img: "/images/comp11.png",
+      demo: "https://victoriastruk.github.io/js-dom-toDoList/",
+      code: "https://github.com/victoriastruk/js-dom-toDoList",
     },
   ],
 };
@@ -206,23 +273,32 @@ export default function Portfolio() {
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-semibold mb-2">{p.title}</h3>
-                  <p className="text-gray-600 mb-4">{p.desc}</p>
+                  <p className="text-gray-600 mb-4 whitespace-pre-line">
+                    {p.desc}
+                  </p>
                 </div>
                 <div className="flex gap-3">
-                  <a
-                    href={p.demo}
-                    target="_blank"
-                    className="px-4 py-2 rounded bg-blue-600 text-white text-sm"
-                  >
-                    Demo
-                  </a>
-                  <a
-                    href={p.code}
-                    target="_blank"
-                    className="px-4 py-2 rounded border border-gray-300 text-sm"
-                  >
-                    GitHub
-                  </a>
+                  {p.demo && p.demo !== "#" && (
+                    <a
+                      href={p.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 rounded bg-blue-600 text-white text-sm"
+                    >
+                      Demo
+                    </a>
+                  )}
+
+                  {p.code && p.code !== "#" && (
+                    <a
+                      href={p.code}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 rounded border border-gray-300 text-sm"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </div>
 
