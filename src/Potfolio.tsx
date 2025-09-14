@@ -55,6 +55,13 @@ Tech stack: React, Express, PostgreSQL, Node.js, SCSS, JWT.`,
   ],
   frontend: [
     {
+      title: "Animated signup section",
+      desc: "The section demonstrates a smooth transition from a signup form to course cards using HTML, CSS, and a bit of JavaScript. ",
+      img: "/images/animation.gif",
+      demo: "https://victoriastruk.github.io/animated-signup-section/",
+      code: "https://github.com/victoriastruk/animated-signup-section",
+    },
+    {
       title: "How It Works Page",
       desc: "Vite + React + SASS + CSS Modules + Flexbox",
       img: "/images/2.png",
